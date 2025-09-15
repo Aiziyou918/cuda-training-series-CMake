@@ -7,6 +7,7 @@ set(CMAKE_CUDA_STANDARD 20)
 
 # set_target_properties(homework PROPERTIES
 #         CUDA_SEPARABLE_COMPILATION ON)
+set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -G")
 
 add_subdirectory(hw1)
 add_subdirectory(hw2)
